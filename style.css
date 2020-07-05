@@ -9,15 +9,23 @@ html {
     position: fixed;
     background-color: lightgray;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     width: 12vw;
     font-size: 120%;
+    
   }
-  @media (max-width: 1200px) {
+  @media (max-width: 1500px) {
     #navbar {
       font-size: 15px;
+    }
+  }
+  @media (max-width: 800px) {
+    #navbar {
+      display: none;
     }
   }
   #title {
@@ -25,13 +33,14 @@ html {
     height: 120px;
   }
   .nav-link {
-    line-height: 5em;
+    line-height: 2em;
     flex-grow: 1;
     width: 12vw;
     height: 20px;
     box-shadow: 10px 15px 20px grey;
     text-decoration: none;
     color: black;
+    padding: 3.7rem 0 0 0;
   }
   
   
@@ -43,6 +52,11 @@ html {
   @media (min-width: 1200px) {
     #main-doc {
       margin: 0 400px 0 0px;
+    }
+  }
+  @media (max-width: 800px) {
+    #main-doc {
+      padding: 0 0 0 5%;
     }
   }
   
