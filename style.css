@@ -5,7 +5,6 @@ html {
   #navbar {
     top: 0;
     left: 0;
-    bottom: 0;
     position: fixed;
     background-color: lightgray;
     display: flex;
@@ -36,7 +35,7 @@ html {
     line-height: 2em;
     flex-grow: 1;
     width: 12vw;
-    height: 20px;
+    height: 80px;
     box-shadow: 10px 15px 20px grey;
     text-decoration: none;
     color: black;
